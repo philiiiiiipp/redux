@@ -404,7 +404,7 @@ function editTodo(todosState, action) {
 // Slice reducer
 const todosReducer = createReducer([], {
     'ADD_TODO' : addTodo,
-    'TOGGLE_TODO' : toggleTodo
+    'TOGGLE_TODO' : toggleTodo,
     'EDIT_TODO' : editTodo
 });
 
